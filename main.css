@@ -16,7 +16,6 @@ html, body
     --text-color : #161712;
 
     width: 100%;
-    height: 100%;
     background-color: var(--light)
 }
 
@@ -173,6 +172,7 @@ nav>ul>li>a
     display:none;
 }
 /*********************************** PAGE ACCUEIL ***********************************/  
+
 /*********************** LOGO ************************/
 /*****************************************************/  
 
@@ -189,16 +189,18 @@ nav>ul>li>a
 #full-logo
 {
     width: 1000px;
-    height: calc(100vh - 370px);
+    height: calc(100vh - 505px);
     min-height:300px;
     margin: auto;
-    top: calc(35% - 100px);
+    top: calc(35% - 100px);    
+    z-index:0;
 }
 
 .logo
 {
     position:absolute;
     background:no-repeat center center;
+
 }
 
 #back-triangle
@@ -206,8 +208,8 @@ nav>ul>li>a
     background-image: url("./assets/logo/SVG/back-triangle.svg");
     width: 200px;
     height: 200px;
-    top:calc(38% - 100px);
-    left:calc(47% - 100px);
+    top:calc(31% - 100px);
+    left:calc(49.5% - 100px);
     transition: 1s all;
 }
 
@@ -216,8 +218,8 @@ nav>ul>li>a
     background-image:url("./assets/logo/SVG/middle-triangle.svg");
     width: 200px;
     height: 200px;
-    top:calc(41.5% - 100px);
-    left:calc(54% - 100px);
+    top:calc(32% - 100px);
+    left:calc(50.5% - 100px);
     transition: 1.1s all;
 }
 
@@ -226,7 +228,7 @@ nav>ul>li>a
     background-image:url("./assets/logo/SVG/front-triangle.svg");
     width: 200px;
     height: 200px;
-    top:calc(40% - 100px);
+    top:calc(31.5% - 100px);
     left:calc(50% - 100px);
     transition: 1.2s all;
 }
@@ -236,7 +238,7 @@ nav>ul>li>a
     background-image:url("./assets/logo/SVG/drill.svg");
     width: 100px;
     height: 100px;
-    top:calc(45% - 50px);
+    top:calc(33% - 50px);
     left:calc(50% - 50px);
     transition: 1.3s all;
 }
@@ -246,38 +248,36 @@ nav>ul>li>a
     background-image:url("./assets/logo/SVG/little-drill.svg");
     width: 70px;
     height: 70px;
-    top:calc(41% - 25px);
-    left:calc(53.4% - 25px);
+    top:calc(32% - 25px);
+    left:calc(50.35% - 25px);
     transition: 1.4s all;
 }
 
-/********************* NOM TITRE *********************/
+/********************* NOM/TITRE *********************/
 /*****************************************************/  
 
 #amanda
 {
     width: 1000px;
-    height: 300px;
+    height: 420px;
     margin: auto;
     padding: 0px;
+    z-index:1;
+
 }
 
-h1, #name2
+h1, #name1
 {
     font-family: 'Cookie', cursive;
     font-size: 10em;
     font-weight:normal;
     text-align:center;
-    width:100%;
-}
-
-#name2
-{
-    margin-left: -2px;
+    width:100%; 
 }
 
 h1
 {
+    position:relative;
     margin-top: -175px;
     color: var(--purple); 
     font-size:10em; 
@@ -287,19 +287,20 @@ h1
 h1:hover
 {
     animation: slide-right 1s ;
+
 }
 
 @keyframes slide-right 
 {
   0% { margin-left:0 }
-  50% { margin-left: -12px }
+  50% { margin-left: 8px }
   100% { margin-left:0 }
 }
 
-#name2
+#name1
 {
     color: var(--yellow);
-    left:calc((100% - 810px)/2);
+    margin-left: -5px;
 }
 
 #titre
@@ -310,8 +311,7 @@ h1:hover
     text-align: center;
     font-size: 3em;
     font-style:normal;
-    font-weight:500;
-    
+    font-weight:500;  
 }
 
 /********************** PARCOURS **********************/
@@ -344,11 +344,6 @@ h1:hover
     border-left: 1px solid var(--orange);
 }
 
-#experiences p
-{
-    display:block;
-}
-
 .company
 {
 
@@ -363,6 +358,17 @@ h1:hover
     font-weight: bold;
     margin: 5px 0 ;
 }
+
+.steps
+{
+    margin: 30px 0px;
+}
+
+p:last-child
+{
+    text-align:justify;
+}
+
 
 /********************** TECHNOS **********************/
 /*****************************************************/  
@@ -525,6 +531,7 @@ h1:hover
 .celgrid
 {    
     background-size: cover;
+    background-position: center;
     -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
@@ -698,7 +705,7 @@ h1:hover
     left: 50%;
     transform:translate(-50%,-50%);
     z-index: 5;
-    display:none;
+    display:none; 
 }
 
 .modal>img

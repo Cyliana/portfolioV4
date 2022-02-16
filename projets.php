@@ -85,7 +85,11 @@ include("header.php");
                     <p class="close" onclick="closeModal('modal8');">X</p>
                     <h3>Dance School Manager</h3>
                     <p>Réalisation d'une application de gestion d'école de danse.
-                        Technologies utilisées : css, php, mysql, javascript(génération des éléments à la volée).</p>
+                        Technologies utilisées : css, php, mysql, javascript(génération des éléments à la volée).<br>
+                        Afin de tester l'application et ses fonctionnalitées voici  des id/mdp :<br>
+                        Identifiant : rloze<br>
+                        mot de passe : 1234<br>
+                    </p>
                     <a href="https://amandat.promo-73.codeur.online/dsm/app/" target="_blank" class="btn-purple"><i class="fas fa-link"></i></a>
                     <a href="https://github.com/Cyliana/dsm" target="_blank" class="btn-purple"><i class="fab fa-github"></i></a>
                 </div>
@@ -142,7 +146,7 @@ include("header.php");
                     <p class="close" onclick="closeModal('modal14');">X</p>
                     <h3>Courriers</h3>
                     <p>Réalisation d'une application de génération de courriers<br>Technologies utilisées : ReactJS , php, mysql, tcpdf pour la génération du document et l'impression.<br>
-                    Afin de tester l'application et ses fonctionnalitées voici  des id/mdp :
+                    Afin de tester l'application et ses fonctionnalitées voici  des id/mdp :<br>
                         Identifiant : amanda<br>
                         mot de passe : 12345<br>
                     </p>
