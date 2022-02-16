@@ -8,10 +8,10 @@
     <meta name="Mon portfolio de développeuse web : mes projets, les technologies que j'utilise, les « autorités » que je suis.">
 
     <title>Amanda Taddei - Dévoloppeuse web</title>
-    <link rel="shortcut icon" type="image/png" href="./img/logo/logo.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/logo/logo.png" />
 
     <!-- STYLES CSS -->
-    <link rel="stylesheet" href="main.css.php">
+    <link rel="stylesheet" href="main.css">
     <!-- <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 480px)" href="styles-mobile.css">
     <link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 768px)" href="styles-tablet.css"> -->
 

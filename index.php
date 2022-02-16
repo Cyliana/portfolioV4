@@ -7,15 +7,17 @@ include("header.php");
     <main>
         <div class="logo-name">
             <div id="full-logo" onmouseover="logoBurst()" onmouseout="logo()">
-                <div id=back-triangle class=logo></div>
-                <div id=middle-triangle class=logo></div>
-                <div id=front-triangle class=logo></div>
-                <div id=drill class=logo></div>
-                <div id=little-drill class=logo></div>
+                <div id="back-triangle" class=logo></div>
+                <div id="middle-triangle" class=logo></div>
+                <div id="front-triangle" class=logo></div>
+                <div id="drill" class=logo></div>
+                <div id="little-drill" class=logo></div>
             </div>
-            <div id="name2">Amanda Taddei</div>
-            <h1>Amanda Taddei</h1>
-            <h2 id=titre>développeuse web</h2>
+            <div id="amanda">
+                <div id="name2">Amanda Taddei</div>
+                <h1>Amanda Taddei</h1>
+                <h2 id=titre>développeuse web</h2>
+            </div>    
         </div>
         
         <div id="parcours">
@@ -57,16 +59,16 @@ include("header.php");
             <div id="technos">
                 <h2>Technologies</h2>
                 <div id="img">
-                    <img src="./img/icones/html.png"></img>
-                    <img src="./img/icones/css-3.png"></img>
-                    <img src="./img/icones/js.png"></img>
-                    <img src="./img/icones/php.png"></img>
-                    <img src="./img/icones/mysql.png"></img>
-                    <img src="./img/icones/github.png"></img>
-                    <img src="./img/icones/photoshop.png"></img>
-                    <img src="./img/icones/illustrator.png"></img>
-                    <img src="./img/icones/xd.png"></img>
-                    <img src="./img/icones/powerpoint.png"></img>
+                    <img src="./assets/icones/html.png"></img>
+                    <img src="./assets/icones/css-3.png"></img>
+                    <img src="./assets/icones/js.png"></img>
+                    <img src="./assets/icones/php.png"></img>
+                    <img src="./assets/icones/mysql.png"></img>
+                    <img src="./assets/icones/powerpoint.png"></img>
+                    <img src="./assets/icones/github.png"></img>
+                    <img src="./assets/icones/photoshop.png"></img>
+                    <img src="./assets/icones/illustrator.png"></img>
+                    <img src="./assets/icones/xd.png"></img>
                 </div>
             </div>
             <div id="softskills"> 
@@ -86,7 +88,7 @@ include("header.php");
         </div>
         <!-- <div class="bloc-cv">
             <p>Version téléchargeable :</p>
-            <a href="./doc/cv-amanda-taddei.pdf"><img src="./doc/cv-amanda-taddei .jpg"></img></a>
+            <a href="./doc/CV amanda taddei.pdf"><img src="./doc/cv-amanda-taddei .jpg"></img></a>
         </div>
          -->
     </main>
