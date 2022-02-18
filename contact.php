@@ -6,7 +6,7 @@ include("header.php");
 <body>
     <main>
         <div id="mood-content">
-            <h2>Contact</h2>
+            <h2>CONTACT</h2>
         </div>
         <div id="section-contact">
             <form action="" methode='post'>

@@ -6,7 +6,7 @@
     padding:0;
 }
 
-html, body
+html
 {
     --light : #f4f4f9;
     --purple : #59095b;
@@ -16,7 +16,20 @@ html, body
     --text-color : #161712;
 
     width: 100%;
-    background-color: var(--light)
+    background-color: var(--light);
+}
+
+body
+{
+    --light : #f4f4f9;
+    --purple : #59095b;
+    --yellow : #E0DC53; 
+    --pink : #F924FF;
+    --orange : #FCA75D;
+    --text-color : #161712;
+
+    width: 100%;
+    background-color: var(--light);
 }
 
 main 
@@ -24,6 +37,7 @@ main
     width:100%;
     min-height: calc(100vh - 70px);
     font-family: 'poppins', sans-serif;
+    overflow: hidden;
 } 
 
 footer 
@@ -53,17 +67,6 @@ h2
     font-size :4em;
     font-weight:100;
     color:var(--text-color);  
-}
-
-h3
-{
-    font-family: 'Tenor sans' sans-serif;
-}
-
-.fab, .fas
-{
-    width: 100px;
-    margin: 10px 0;
 }
 
 .btn-purple 
@@ -303,13 +306,13 @@ h1:hover
 
 #titre
 {
-    position:relative;
+    position: relative;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.43em ;
     text-align: center;
     font-size: 3em;
-    font-style:normal;
-    font-weight:500;  
+    font-style: normal;
+    font-weight: 500;  
 }
 
 /********************** PARCOURS **********************/
@@ -319,13 +322,13 @@ h1:hover
 {
     width: 1160px;
     min-height: 100vh;
-    margin:auto;
+    margin: auto;
     margin-bottom: 100px;
 }
 
 #parcours
 {
-   display:flex;
+   display: flex;
    justify-content: space-between;
 }
 
@@ -333,18 +336,53 @@ h1:hover
 {
     background-image: url("");
     background-position: center;
-    width:50%;
-    overflow:hidden;
-    margin-right:40px;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
+#drill1
+{
+    position: relative;
+    background-image: url("./assets/logo/drill1.svg");
+    width: 100px;
+    height: 100px;
+}
+
+#drill2
+{
+    position: relative;
+    background-image: url("./assets/logo/drill2.svg");
+    width: 100px;
+    height: 100px;
+}
+
+#drill3
+{
+    position: relative;
+    background-image: url("./assets/logo/drill3.svg");
+    width: 100px;
+    height: 100px;
+}
+
+#drill4
+{
+    position: relative;
+    background-image: url("./assets/logo/drill4.svg");
+    width: 100px;
+    height: 100px;
+}
 
 #accueil>h2
 {
-    z-index:1;
-    color:var(--purple);
+    z-index: 1;
+    color: var(--purple);
     text-shadow : -4px 0px var(--yellow);
     margin: 50px auto;
+    text-align: center;
 }
 
 #experiences
@@ -359,9 +397,9 @@ h1:hover
 {
 
     font-family: 'Tenor sans', sans-serif;
-    font-size:1.2em;
+    font-size: 1.2em;
     text-shadow: 1px 0px #59095b;
-    color:var(--purple);
+    color: var(--purple);
 }
 
 .date
@@ -377,7 +415,7 @@ h1:hover
 
 p:last-child
 {
-    text-align:justify;
+    text-align: justify;
 }
 
 
@@ -392,24 +430,24 @@ p:last-child
 
 #technos    
 {
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
-    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin-bottom: 100px;
 }
 
 #technos>h2
 {
-    z-index:1;
-    color:var(--purple);
-    margin:50px 0px;
+    z-index: 1;
+    color: var(--purple);
+    margin: 50px 0px;
     text-shadow: -4px 0px var(--orange);
+    text-align: center;
 }
 
 #img
 {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     
@@ -417,9 +455,9 @@ p:last-child
 
 #img>img
 {
-    width:60px;
-    height:60px;
-    margin:30px;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
 }
 
 /******************** SOFTS SKILLS ********************/
@@ -427,18 +465,18 @@ p:last-child
 
 #softskills
 {
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 100px;
 }
 
 #softskills>h2
 {
-    z-index:1;
-    color:var(--purple);
-    margin:50px 0px;
+    z-index: 1;
+    color: var(--purple);
+    margin: 50px 0px;
     text-shadow : -4px 0px var(--pink);
+    text-align: center;
 }
 
 #flowerSoftSkills
@@ -448,8 +486,8 @@ p:last-child
 
 #flower
 {
-    width:400px;
-    height:400px;
+    width: 400px;
+    height: 400px;
     background-image: url("./assets/softs-skills/fleur.svg");
 }
 
@@ -461,49 +499,51 @@ p:last-child
 
 #curieuse
 {
-    top:80%;
-    left:80%;
+    top: 80%;
+    left: 80%;
 }
 
 #adaptable
 {
-    top:25%;
-    left:92%;
+    top: 25%;
+    left: 92%;
 }
 
 #rigoureuse
 {
-    top:-12%;
-    left:38%;
+    top: -12%;
+    left: 38%;
 }
 
 #dynamique
 {
-    top:61.5%;
-    left:-3%;
+    top: 61.5%;
+    left: -3%;
 }
 
 #organisee
 {
-    top:6.5%;
-    left:-13%;
+    top: 6.5%;
+    left: -13%;
 }
 
 #avatar
 {
     position: relative;
-    top:5%;
-    left:35%;
-    width:120px;
-    height:120px;
+    top: 5%;
+    left: 35%;
+    width: 120px;
+    height: 120px;
     background-image : url("./assets/avatar-amanda2.jpg");
-    background-size:cover;
-    border-radius:100%;
+    background-size: cover;
+    border-radius: 100%;
 }
 
 #avatar:hover
 {
     background-image : url("./assets/amanda.png");
+    transition: background-image 2s ;
+    
 }
 
 
@@ -513,12 +553,12 @@ p:last-child
 {
     width: 1200px;
     padding-top: 100px;
-    margin:auto;
+    margin: auto;
 }
 
 #projectcontent>h2
 {
-    color:var(--purple);
+    color: var(--purple);
     text-shadow : 3px 2px var(--orange);
     margin: 50px auto;
     text-align: center;
@@ -526,19 +566,17 @@ p:last-child
 
 #container
 {
-    width:1200px;
+    width: 1200px;
     margin: 0px auto 50px;
-    border: 20px solid var(--yellow);
 }   
 
 #gridcontent
 {    
-    width:100%;
+    width: 100%;
     display: grid;                                                      /*mise en place du grid*/
     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;    /*hauteur des lignes*/
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;                     /*largeur des colonnes*/                           
     grid-gap: 20px;                                                     /*espaces entre les éléments*/
-    background-color:var(--yellow);
 }
 
 .celgrid
@@ -695,43 +733,43 @@ p:last-child
 
 #overlay 
 {	
-    position:fixed;
+    position: fixed;
     top: 50px; 
     left: 0;
-    bottom:0;
-    right:0;
+    bottom: 0;
+    right: 0;
     background-color: rgba(22, 23, 18, 0.5);
     z-index: 4;
-    display:none;
+    display: none;
 }
 
 .modal 
 {
     width : 70%;
-    padding:20px;
+    padding: 20px;
     text-align: center;
-    color:var(--text-color);
-    background-color:var(--light); 
-    border:5px solid var(--yellow);
+    color: var(--text-color);
+    background-color: var(--light); 
+    border: 5px solid var(--yellow);
     position: fixed;
     top: 50%; 
     left: 50%;
-    transform:translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     z-index: 5;
-    display:none; 
+    display: none; 
 }
 
 .modal>img
 {
     width: 70%;
     margin-bottom: 20px;
-    border:1px solid var(--orange);
+    border: 1px solid var(--orange);
 }
 
 .modal h3
 {
     font-size: 2em;
-    margin:20px 0px;
+    margin: 20px 0px;
     color: var(--purple);
     text-shadow: 2px 1px var(--pink);
 }
@@ -740,7 +778,7 @@ p:last-child
 {
     text-align: justify;
     width: 70%;
-    margin:0px auto 20px;
+    margin: 0px auto 20px;
 }
 
 .close img
@@ -749,10 +787,10 @@ p:last-child
     line-height: 40px;
     vertical-align: middle;
     text-align: center;
-    color:var(--purple);
+    color: var(--purple);
     width: 40px;
     height: 40px;
-    border:5px solid var(--yellow);
+    border: 5px solid var(--yellow);
     background-color: var(--light);
     border-radius: 20px;
     position: absolute;
@@ -768,38 +806,50 @@ p:last-child
 
 #mood-content
 {
-   margin-top:100px; 
+    width: 1200px;
+    padding-top: 100px;
+    margin: auto;
+}
+
+#mood-content>h2
+{
+    color: var(--purple);
+    text-shadow: 3px 1px var(--pink);
+    margin: 50px auto;
+    text-align: center;
 }
 
 #section-contact
 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height:calc(100vh - 150px);
-    color: var(--text-color); 
-    overflow-y : scroll;
-    z-index:0;
+    width: 1200px;
+    margin: auto;
 }
 
 form 
 {
-    width:500px;
-    margin:auto;
+    width: 500px;
+    margin: 0px auto 50px;
 }
 
 form>button 
 {
     margin:0 !important;
-    padding:5px;
+    padding: 5px;
+}
+
+form>input
+{
+    height: 30px
+}
+
+form>textarea
+{
+    height: 200px;
 }
 
 form input,textarea
 {
-    width:100%;
-    margin-bottom:20px;
-    padding:0 20px 0 20px;
-    display:flex;
+    width: 460px;
+    margin-bottom: 40px;
+    padding: 0 20px 0 20px;
 } 
-
-

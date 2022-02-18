@@ -1,4 +1,4 @@
-
+console.log("page js");
 //=============================PAGE ACCUEIL===========================
 
 
@@ -65,20 +65,15 @@ function logo()
 
 function openModal(id)
 {
-    if(document.getElementById(id).style.display == "block")
-    {
-        document.getElementById(id).style.display = "none";
-        document.getElementById('overlay').style.display = "none";
-    }
-    else
-    {
-        document.getElementById(id).style.display = "block";
-        document.getElementById('overlay').style.display = "block";
-    }
+    document.getElementById(id).style.display = "block";
+    document.getElementById('overlay').style.display = "block";
+    document.getElementById("body").style.overflow = "hidden";
+    console.log("2");  
 }
 
 function closeModal(id)
 {
     document.getElementById(id).style.display = "none";
     document.getElementById("overlay").style.display = "none";
+    document.getElementById("body").style = "";     
 }

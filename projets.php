@@ -3,8 +3,8 @@ include("head.php");
 include("header.php");
 ?>
 
-<body>
-    <main>
+<body id="body">
+    <main id="main">
         <div id="overlay"></div>
         <div id="projectcontent">
             <h2>PROJETS</h2>
@@ -181,9 +181,8 @@ include("header.php");
             </div>
         </div>
     </main>
-    <?php
-    include("footer.php");
-    ?>
+    <?php include("footer.php"); ?>
+    <script src="main.js"></script>
 </body>
 
 </html>

@@ -17,26 +17,29 @@ include("header.php");
                 <div id="name1">Amanda Taddei</div>
                 <h1>Amanda Taddei</h1>
                 <h2 id=titre>développeuse web</h2>
-            </div>    
+            </div>
         </div>
 
-        
+
         <div id="accueil">
             <h2>PARCOURS</h2>
             <div id="parcours">
                 <div id="road">
+                    <div id="drill1" class=logo></div>
+                    <div id="drill2" class=logo></div>
+                    <div id="drill3" class=logo></div>
+                    <div id="drill4" class=logo></div>
                 </div>
                 <div id="experiences">
                     <div class="steps">
-                        <p class="company">OnlineFormaPro - Stagiaire</p> 
+                        <p class="company">OnlineFormaPro - Stagiaire</p>
                         <p class="date">2020 / aujourd'hui</p>
-                        <p>Formation pré-qualifiante et qualifiante Developpement Web et Web mobile.<br>Apprendre les langages de balisage tel que html, css et les langages de programations tel que javascript, php, mysql ainsi que des framework symfony, librairie reactjs, bootstrap et le CMS Wordpresse.</p>
+                        <p>Formation développement Web et Web mobile.<br>Apprendre les langages de balisage tel que html, css et les langages de programations tel que javascript, php, mysql ainsi que des framework symfony, librairie reactjs, bootstrap et le CMS Wordpress.</p>
                     </div>
                     <div class="steps">
                         <p class="company">Renault Trucks - Opératrice</p>
                         <p class="date">2019/2020</p>
                         <p>Assemblage de pièces devant êtres destinées à la ligne moteur puis a la ligne de montage principale des camions.<br>
-                        Il existe des spécificitées en fonction des commandes.
                         </p>
                     </div>
                     <div class="steps">
@@ -56,7 +59,7 @@ include("header.php");
                     </div>
                     <div class="steps">
                         <p class="company"> BEP Vente Action Marchande</p>
-                        <p class="date">2007</p>                    
+                        <p class="date">2007</p>
                     </div>
                 </div>
             </div>
@@ -78,7 +81,7 @@ include("header.php");
                     <img src="./assets/icones/xd.png"></img>
                 </div>
             </div>
-            <div id="softskills"> 
+            <div id="softskills">
                 <h2>SOFTS SKILLS</h2>
                 <div id="flowerSoftSkills">
                     <div id="flower">
@@ -89,19 +92,14 @@ include("header.php");
                         <div class="softs" id="organisee">Organisée</div>
                         <div id="avatar"></div>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
-        <!-- <div class="bloc-cv">
-            <p>Version téléchargeable :</p>
-            <a href="./doc/CV amanda taddei.pdf"><img src="./doc/cv-amanda-taddei .jpg"></img></a>
-        </div>
-         -->
+      
     </main>
-    <?php
-    include("footer.php");
-    ?>
+    <?php include("footer.php"); ?>
+    <script src="main.js"></script>
 </body>
 
 </html>
