@@ -1,3 +1,3 @@
 <footer>
-    <p>Amanda Taddei - Portfolio V3 - 2021</p>
+    <p>Amanda Taddei - Portfolio V4 - 2022</p>
 </footer>

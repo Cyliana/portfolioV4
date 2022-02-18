@@ -44,14 +44,13 @@ footer
 footer>p
 {
     padding:20px;
-    width:500px;
     text-align:center;
 }
 
 h2
 {
     font-family: 'Tenor Sans', sans-serif;
-    font-size :6em;
+    font-size :4em;
     font-weight:100;
     color:var(--text-color);  
 }
@@ -59,7 +58,6 @@ h2
 h3
 {
     font-family: 'Tenor sans' sans-serif;
-    font-size:25px;
 }
 
 .fab, .fas
@@ -109,8 +107,8 @@ nav>ul
 {
     display: flex;
     align-items: center;
-    justify-content:space-around;
-    width: 70%;
+    justify-content:space-between;
+    width: 1200px;
     height: 70px;
     margin:auto; 
 }
@@ -188,7 +186,7 @@ nav>ul>li>a
 
 #full-logo
 {
-    width: 1000px;
+    width: 1200px;
     height: calc(100vh - 505px);
     min-height:300px;
     margin: auto;
@@ -258,7 +256,7 @@ nav>ul>li>a
 
 #amanda
 {
-    width: 1000px;
+    width: 1200px;
     height: 420px;
     margin: auto;
     padding: 0px;
@@ -317,23 +315,36 @@ h1:hover
 /********************** PARCOURS **********************/
 /*****************************************************/  
 
-#parcours
+#accueil
 {
-    width: 960px;
+    width: 1160px;
     min-height: 100vh;
     margin:auto;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    padding: 20px;
+    margin-bottom: 100px;
 }
 
-#parcours>h2
+#parcours
 {
-    flex: 1 1;
+   display:flex;
+   justify-content: space-between;
+}
+
+#road
+{
+    background-image: url("");
+    background-position: center;
+    width:50%;
+    overflow:hidden;
+    margin-right:40px;
+}
+
+
+#accueil>h2
+{
     z-index:1;
     color:var(--purple);
     text-shadow : -4px 0px var(--yellow);
+    margin: 50px auto;
 }
 
 #experiences
@@ -349,7 +360,7 @@ h1:hover
 
     font-family: 'Tenor sans', sans-serif;
     font-size:1.2em;
-    font-weight:bold;
+    text-shadow: 1px 0px #59095b;
     color:var(--purple);
 }
 
@@ -375,7 +386,7 @@ p:last-child
 
 #soft-and-tech
 {
-    width: 1000px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -385,6 +396,7 @@ p:last-child
     flex-direction:column;
     justify-content:flex-start;
     align-items: flex-end;
+    margin-bottom: 100px;
 }
 
 #technos>h2
@@ -400,7 +412,7 @@ p:last-child
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 50px;
+    
 }
 
 #img>img
@@ -418,7 +430,7 @@ p:last-child
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #softskills>h2
@@ -499,7 +511,7 @@ p:last-child
 
 #projectcontent
 {
-    width: 1000px;
+    width: 1200px;
     padding-top: 100px;
     margin:auto;
 }
@@ -508,23 +520,24 @@ p:last-child
 {
     color:var(--purple);
     text-shadow : 3px 2px var(--orange);
-    margin: 50px 0px;
+    margin: 50px auto;
+    text-align: center;
 }
 
 #container
 {
-    width:1000px;
+    width:1200px;
     margin: 0px auto 50px;
-    border: 10px solid var(--yellow);
+    border: 20px solid var(--yellow);
 }   
 
 #gridcontent
 {    
     width:100%;
     display: grid;                                                      /*mise en place du grid*/
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;    /*hauteur des lignes*/
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;    /*hauteur des lignes*/
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;                     /*largeur des colonnes*/                           
-    grid-gap: 10px;                                                     /*espaces entre les éléments*/
+    grid-gap: 20px;                                                     /*espaces entre les éléments*/
     background-color:var(--yellow);
 }
 
@@ -548,99 +561,99 @@ p:last-child
 {
     background-image: url("./assets/projets/hackcess-apercu.png");
     grid-column-start: 1; 
-    grid-column-end: 3; 
-    grid-row-start: 1; 
-    grid-row-end: 3;
+    grid-column-end: 5; 
+    grid-row-start: 12; 
+    grid-row-end: 15;
 }
 
 #cel2
 {
     background-image: url("./assets/projets/travel-apercu.png");
-    grid-column-start: 3; 
-    grid-column-end: 5; 
-    grid-row-start: 1; 
-    grid-row-end: 3;
+    grid-column-start: 5; 
+    grid-column-end: 8; 
+    grid-row-start: 3; 
+    grid-row-end: 5;
 }
 
 #cel3
 {
-    background-image: url("./assets/projets/illustration-apercu.png");
-    grid-column-start: 1; 
-    grid-column-end: 3; 
-    grid-row-start: 3; 
-    grid-row-end: 5;
+    background-image: url("./assets/projets/presentation-illustration-nevinator.jpg");
+    grid-column-start: 3; 
+    grid-column-end: 8; 
+    grid-row-start: 15; 
+    grid-row-end: 19;
 }
 
 #cel4
 {
     background-image: url("./assets/projets/portfolio1-apercu.png");
-    grid-column-start:3; 
-    grid-column-end:5; 
-    grid-row-start:3; 
-    grid-row-end: 5;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    grid-row-start: 7; 
+    grid-row-end: 9;
 }
 
 #cel5
 {
     background-image: url("./assets/projets/nevinator-apercu.png");
     grid-column-start: 3; 
-    grid-column-end: 5; 
-    grid-row-start: 9; 
-    grid-row-end: 11;
+    grid-column-end: 8; 
+    grid-row-start: 8; 
+    grid-row-end: 12;
 }
 
 #cel6
 {
     background-image: url("./assets/projets/lfmr-apercu.png");
-    grid-column-start: 3; 
-    grid-column-end: 5; 
+    grid-column-start: 1; 
+    grid-column-end: 3; 
     grid-row-start: 5; 
     grid-row-end: 7;
 }
 
 #cel7
 {
-    background-image: url("./assets/projets/logo-apercu.png");
-    grid-column-start: 1; 
-    grid-column-end: 3; 
-    grid-row-start: 7; 
-    grid-row-end: 9;
+    background-image: url("./assets/projets/nevinator-logo.jpg");
+    grid-column-start: 5; 
+    grid-column-end: 8; 
+    grid-row-start: 14; 
+    grid-row-end: 15;
 }
 
 #cel8
 {
     background-image: url("./assets/projets/dsm-apercu.png");
-    grid-column-start: 3; 
-    grid-column-end: 5; 
-    grid-row-start: 7; 
-    grid-row-end: 9;
+    grid-column-start: 5; 
+    grid-column-end: 8; 
+    grid-row-start: 1; 
+    grid-row-end: 3;
 }
 
 #cel9
 {
     background-image: url("./assets/projets/casse-brique-apercu.png");
-    grid-column-start: 5; 
-    grid-column-end: 7; 
-    grid-row-start: 7; 
-    grid-row-end: 9;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    grid-row-start: 17; 
+    grid-row-end: 19;
 }
 
 #cel10
 {
     background-image: url("./assets/projets/logo-playstation-apercu.png");
-    grid-column-start: 1; 
-    grid-column-end: 3; 
+    grid-column-start: 6; 
+    grid-column-end: 8; 
     grid-row-start: 5; 
-    grid-row-end: 7;
+    grid-row-end: 8;
 }
 
 #cel11
 {
     background-image: url("./assets/projets/circus-apercu.png");
-    grid-column-start: 5; 
-    grid-column-end: 7; 
-    grid-row-start: 5; 
-    grid-row-end: 7;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    grid-row-start: 9; 
+    grid-row-end: 12;
 }
 
 
@@ -648,27 +661,27 @@ p:last-child
 {
     background-image: url("./assets/projets/portfolio2-apercu.png");
     grid-column-start: 5; 
-    grid-column-end: 7; 
-    grid-row-start: 9; 
-    grid-row-end: 11;
+    grid-column-end: 8; 
+    grid-row-start: 12; 
+    grid-row-end: 14;
 }
 
 #cel13
 {
     background-image: url("./assets/projets/chocolat-apercu.png");
-    grid-column-start: 5; 
-    grid-column-end: 7; 
+    grid-column-start: 1; 
+    grid-column-end: 5; 
     grid-row-start: 1; 
-    grid-row-end: 3;
+    grid-row-end: 5;
 }
 
 #cel14
 {
     background-image: url("./assets/projets/courriers-apercu.png");
-    grid-column-start: 5; 
-    grid-column-end: 7; 
-    grid-row-start: 3; 
-    grid-row-end: 5;
+    grid-column-start: 3; 
+    grid-column-end: 6; 
+    grid-row-start: 5; 
+    grid-row-end: 8;
 }
 
 #cel15
@@ -676,8 +689,8 @@ p:last-child
     background-image: url("./assets/projets/portfolioV3-apercu.png");
     grid-column-start: 1; 
     grid-column-end: 3; 
-    grid-row-start: 9; 
-    grid-row-end: 11;
+    grid-row-start: 15; 
+    grid-row-end: 17;
 }
 
 #overlay 
@@ -710,48 +723,53 @@ p:last-child
 
 .modal>img
 {
-    width: 80%;
-    height: 80%;
-    margin-bottom: 50px;
+    width: 70%;
+    margin-bottom: 20px;
+    border:1px solid var(--orange);
 }
 
 .modal h3
 {
+    font-size: 2em;
     margin:20px 0px;
+    color: var(--purple);
+    text-shadow: 2px 1px var(--pink);
 }
 
-.modal
+.modal>p:last-of-type
 {
-    margin: 0px auto 50px;
-    width:70%;
+    text-align: justify;
+    width: 70%;
+    margin:0px auto 20px;
 }
 
-.close
+.close img
 {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 40px;
     vertical-align: middle;
     text-align: center;
-    color:var(--text-color);
-    width: 30px;
-    height: 30px;
-    border:5px solid var(--light-green);
+    color:var(--purple);
+    width: 40px;
+    height: 40px;
+    border:5px solid var(--yellow);
     background-color: var(--light);
     border-radius: 20px;
     position: absolute;
-    right:-15px;
-    top: -15px;
+    right:-20px;
+    top: -20px;
     margin: 0;
     cursor: pointer;
 }
 
-.close:hover
-{
-    background-color: var(--purple);
-    color:var(--light);
-}
 
 /*********************************** PAGE CONTACT ***********************************/  
+
+
+#mood-content
+{
+   margin-top:100px; 
+}
 
 #section-contact
 {
@@ -760,10 +778,6 @@ p:last-child
     width: 100%;
     height:calc(100vh - 150px);
     color: var(--text-color); 
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     overflow-y : scroll;
     z-index:0;
 }
@@ -783,8 +797,9 @@ form>button
 form input,textarea
 {
     width:100%;
-    padding: 10px;
     margin-bottom:20px;
+    padding:0 20px 0 20px;
+    display:flex;
 } 
 
 

@@ -19,45 +19,52 @@ include("header.php");
                 <h2 id=titre>développeuse web</h2>
             </div>    
         </div>
+
         
-        <div id="parcours">
-            <h2>Parcours</h2>
-            <div id="experiences">
-                <div class="steps">
-                    <p class="company">OnlineFormaPro - Stagiaire</p> 
-                    <p class="date">2020 / aujourd'hui</p>
-                    <p>Formation pré-qualifiante et qualifiante Developpement Web et Web mobile.</p>
+        <div id="accueil">
+            <h2>PARCOURS</h2>
+            <div id="parcours">
+                <div id="road">
                 </div>
-                <div class="steps">
-                    <p class="company">Renault Trucks - Opératrice</p>
-                    <p class="date">2019/2020</p>
-                    <p>Assemblage de divers ensemble destiné aux lignes moteurs.</p>
-                </div>
-                <div class="steps">
-                    <p class="company">L'instant Bar Restaurant - Gérante</p>
-                    <p class="date">2017/2019</p>
-                    <p>Mise en place, serveuse, gestion administrative, gestion des stocks, entretien journalier des locaux.</p>
-                </div>
-                <div class="steps">
-                    <p class="company">CAF de l'Ain - Conseillère offres de services</p>
-                    <p class="date">2013/2016</p>
-                    <p>Accueillir l'allocataire, le conseiller et l'orienter vers le CAF.FR.</p>
-                </div>
-                <div class="steps">
-                    <p class="company">Int'air Medical - Opératrice</p>
-                    <p class="date">2008/2011</p>
-                    <p>Assemblage d'équipement médical destiné aux hopitaux et à l'hospitalisation à domicile.</p>
-                </div>
-                <div class="steps">
-                    <p class="company"> BEP Vente Action Marchande</p>
-                    <p class="date">2007</p>                    
+                <div id="experiences">
+                    <div class="steps">
+                        <p class="company">OnlineFormaPro - Stagiaire</p> 
+                        <p class="date">2020 / aujourd'hui</p>
+                        <p>Formation pré-qualifiante et qualifiante Developpement Web et Web mobile.<br>Apprendre les langages de balisage tel que html, css et les langages de programations tel que javascript, php, mysql ainsi que des framework symfony, librairie reactjs, bootstrap et le CMS Wordpresse.</p>
+                    </div>
+                    <div class="steps">
+                        <p class="company">Renault Trucks - Opératrice</p>
+                        <p class="date">2019/2020</p>
+                        <p>Assemblage de pièces devant êtres destinées à la ligne moteur puis a la ligne de montage principale des camions.<br>
+                        Il existe des spécificitées en fonction des commandes.
+                        </p>
+                    </div>
+                    <div class="steps">
+                        <p class="company">L'instant Bar Restaurant - Gérante</p>
+                        <p class="date">2017/2019</p>
+                        <p>Mise en place, serveuse, gestion administrative, gestion des stocks, entretien journalier des locaux , respect des normes liées au métier.</p>
+                    </div>
+                    <div class="steps">
+                        <p class="company">CAF de l'Ain - Conseillère offre de services</p>
+                        <p class="date">2013/2016</p>
+                        <p>Accueillir l'allocataire, identifier ses besoins ou sa demande, le conseiller, l'orienter et l'accompagner sur les services du site CAF.FR.</p>
+                    </div>
+                    <div class="steps">
+                        <p class="company">Int'air Medical - Opératrice</p>
+                        <p class="date">2008/2011</p>
+                        <p>Assemblage d'équipement médical en salle stérile destiné aux hopitaux et à l'hospitalisation à domicile.</p>
+                    </div>
+                    <div class="steps">
+                        <p class="company"> BEP Vente Action Marchande</p>
+                        <p class="date">2007</p>                    
+                    </div>
                 </div>
             </div>
         </div>
 
         <div id="soft-and-tech">
             <div id="technos">
-                <h2>Technologies</h2>
+                <h2>TECHNOLOGIES</h2>
                 <div id="img">
                     <img src="./assets/icones/html.png"></img>
                     <img src="./assets/icones/css-3.png"></img>
@@ -72,7 +79,7 @@ include("header.php");
                 </div>
             </div>
             <div id="softskills"> 
-                <h2>Softs Skills</h2>
+                <h2>SOFTS SKILLS</h2>
                 <div id="flowerSoftSkills">
                     <div id="flower">
                         <div class="softs" id="curieuse">Curieuse</div>
